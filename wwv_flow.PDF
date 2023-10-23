@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="no-js  page-7 app-200" lang="en" >
+<head>
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <title>Input</title>
+  <link rel="stylesheet" href="/i/app_ui/css/Core.min.css?v=19.2.0.00.18" type="text/css" />
+<link rel="stylesheet" href="/i/app_ui/css/Theme-Standard.min.css?v=19.2.0.00.18" type="text/css" />
+<link rel="stylesheet" href="/i/libraries/jquery-ui/1.12.1/jquery-ui-apex.min.css?v=19.2.0.00.18" type="text/css" />
+
+  <link rel="stylesheet" href="/i/libraries/font-apex/2.1/css/font-apex.min.css?v=19.2.0.00.18" type="text/css" />
+<link rel="stylesheet" href="/i/themes/theme_42/1.4/css/Core.min.css?v=19.2.0.00.18" type="text/css" />
+
+  
+  <link rel="stylesheet" href="/i/themes/theme_42/1.4/css/Vita.min.css?v=19.2.0.00.18" type="text/css" />
+
+  <link rel="stylesheet" href="r/ws_git_erp/200/files/static/v3/app-icon.css?version=Release%201.0" type="text/css" />
+
+  
+  <link rel="shortcut icon" href="/i/favicon.ico">
+<link rel="icon" sizes="16x16" href="/i/favicon-16x16.png">
+<link rel="icon" sizes="32x32" href="/i/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/i/favicon-180x180.png">
+  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta http-equiv="Cache-Control" content="no-cache" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body class="t-PageBody--login no-anim   apex-side-nav apex-icons-fontapex apex-theme-vita"  >
+<form action="wwv_flow.accept" method="post" name="wwv_flow" id="wwvFlowForm" data-oj-binding-provider="none" novalidate  autocomplete="off">
+<input type="hidden" name="p_flow_id" value="200" id="pFlowId" /><input type="hidden" name="p_flow_step_id" value="7" id="pFlowStepId" /><input type="hidden" name="p_instance" value="" id="pInstance" /><input type="hidden" name="p_page_submission_id" value="189236011142516282337168633935738127400" id="pPageSubmissionId" /><input type="hidden" name="p_request" value="" id="pRequest" /><input type="hidden" name="p_reload_on_submit" value="S" id="pReloadOnSubmit" /><input type="hidden" value="189236011142516282337168633935738127400" id="pSalt" /><div class="t-Login-container">
+  <header class="t-Login-containerHeader"></header>
+  <main class="t-Login-containerBody" id="main"><div class="t-Alert t-Alert--danger t-Alert--wizard t-Alert--defaultIcons">
+  <div class="t-Alert-wrap">
+    <div class="t-Alert-icon">
+      <span class="t-Icon"></span>
+    </div>
+    <div class="t-Alert-content">
+      <div class="t-Alert-body">
+        <h3>Your session has expired</h3>
+        <p>Click <a href="f?p=200:1">here</a> to create a new session.</p>
+        <div class="t-Alert-inset"></div>
+      </div>
+    </div>
+    <div class="t-Alert-buttons">
+      <button onclick="javascript:window.history.go(-1)" class="t-Button t-Button--hot w50p t-Button--large" type="button">OK</button>
+    </div>
+  </div>
+</div></main>
+  <footer class="t-Login-containerFooter"></footer>
+</div>
+<input type="hidden" id="pPageFormRegionChecksums" value="&#x5B;&#x5D;">
+</form>
+
+
+<script>
+var apex_img_dir = "/i/", htmldb_Img_Dir = apex_img_dir;
+</script>
+<script src="/i/libraries/apex/minified/desktop_all.min.js?v=19.2.0.00.18"></script>
+<script src="wwv_flow.js_messages?p_app_id=200&p_lang=en&p_version=19.2.0.00.18-6442439207"></script>
+
+
+<script src="/i/libraries/apex/minified/widget.stickyWidget.min.js?v=19.2.0.00.18"></script>
+<script src="/i/themes/theme_42/1.4/js/theme42.min.js?v=19.2.0.00.18"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+apex.jQuery( function() {
+apex.page.init( this, function() {
+apex.jQuery.when.apply( apex.jQuery, apex.page.loadingDeferreds ).done(function() {
+try {
+apex.theme42.initializePage.appLogin();
+} finally {
+apex.event.trigger(apex.gPageContext$,'apexreadyend');
+}
+});
+});
+});</script>
+
+</body>
+</html>
